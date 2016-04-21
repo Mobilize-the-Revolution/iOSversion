@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="rit-Dv-OxZ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="kqR-Qm-MNf">
+            <objects>
+                <viewController id="rit-Dv-OxZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cSK-WG-gar"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Kc-7f-Amb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tRC-H4-T43">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobilize the Revolution" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSj-Km-iFw">
+                                <rect key="frame" x="20" y="236" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.97647100689999999" green="0.69411802290000002" blue="0.01176500041" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.97647100689999999" green="0.69411802290000002" blue="0.01176500041" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="1" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49803921569999998" green="0.83137254900000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Kc-7f-Amb" firstAttribute="top" secondItem="eSj-Km-iFw" secondAttribute="bottom" constant="343" id="1px-1D-0wn"/>
+                            <constraint firstItem="eSj-Km-iFw" firstAttribute="leading" secondItem="tRC-H4-T43" secondAttribute="leadingMargin" id="6ru-J1-ul0"/>
+                            <constraint firstItem="eSj-Km-iFw" firstAttribute="top" secondItem="cSK-WG-gar" secondAttribute="bottom" constant="216" id="FMx-JU-16P"/>
+                            <constraint firstItem="eSj-Km-iFw" firstAttribute="trailing" secondItem="tRC-H4-T43" secondAttribute="trailingMargin" id="ru3-gt-kxC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Azc-ei-EHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="577"/>
+        </scene>
+    </scenes>
+</document>
